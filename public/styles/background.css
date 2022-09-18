@@ -2,6 +2,15 @@
     clip-path: url(#cache);
 }
 
+#home-anim{
+    min-width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 #yellow {
     fill: none;
     opacity: 0.15;
