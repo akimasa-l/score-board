@@ -24,3 +24,11 @@
     background-position: 0 0;
     animation: gradient 20s linear infinite running; */
 }
+.main .title {
+  font-size: min(6vmin, 4rem);
+  margin-top: 30px;
+}
+.main .bottom {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
