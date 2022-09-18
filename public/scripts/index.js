@@ -1,61 +1,43 @@
-function handleTickInitBlue(tick) {
+/* async function t(t) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve()
+        }, t)
+    })
+} */
+/* const colors = ['blue', 'yellow', 'green', 'white', 'red'];
+async function a(tick) {
+    const value = [0, 111, 222, 333, 444];
+    for (index in value) {
+        for(i of String(value[index])) {
+            tick.value[colors[index]][0] = Number(i);
+            await t(100);
+        }
+    }
+} */
+function handleTickInit(tick) {
+    setTimeout(function () {
+        tick.value = {
+            blue: [0, 0, 0],
+            yellow: [0, 0, 0],
+            green: [0, 0, 0],
+            white: [0, 0, 0],
+            red: [0, 0, 0],
+           
+        };
+setTimeout(function () {
+        tick.value = {
+            blue: [0,4,3],
+            yellow: [4,5,6],
+            green: [7,8,9],
+            white: [1,2,3],
+            red: [4,5,6],
+        };
+        
+    }, 100);
 
-    // set final value, tick will animate towards it
-    setTimeout(function(){
-        tick.value = 125;
-    }, 1000);
-
-    // play with arrive() values to tune animation speed and duration
-    // 1. first value is maximum speed of increase
-    // 2. second value is speed at which the increase ramps up
-
-}
-function handleTickInitYellow(tick) {
-
-    // set final value, tick will animate towards it
-    setTimeout(function(){
-        tick.value = 125;
-    }, 2000);
-
-    // play with arrive() values to tune animation speed and duration
-    // 1. first value is maximum speed of increase
-    // 2. second value is speed at which the increase ramps up
-
-}
-function handleTickInitGreen(tick) {
-
-    // set final value, tick will animate towards it
-    setTimeout(function(){
-        tick.value = 125;
-    }, 3000);
-
-    // play with arrive() values to tune animation speed and duration
-    // 1. first value is maximum speed of increase
-    // 2. second value is speed at which the increase ramps up
-
-}
-
-function handleTickInitWhite(tick) {
-
-    // set final value, tick will animate towards it
-    setTimeout(function(){
-        tick.value = 125;
-    }, 4000);
-
-    // play with arrive() values to tune animation speed and duration
-    // 1. first value is maximum speed of increase
-    // 2. second value is speed at which the increase ramps up
-
-}
-function handleTickInitRed(tick) {
-
-    // set final value, tick will animate towards it
-    setTimeout(function(){
-        tick.value = 125;
-    }, 5000);
-
-    // play with arrive() values to tune animation speed and duration
-    // 1. first value is maximum speed of increase
-    // 2. second value is speed at which the increase ramps up
+        // a(tick);
+    }, 200);
+    
 
 }
