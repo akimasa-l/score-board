@@ -5,9 +5,10 @@
 .yellow .tick-flip-panel {
     background-color: hsl(60, 100%, 51%);
 }
+
 .yellow .tick-flip-panel {
-    color: rgb(58, 58, 58) ; 
- }
+    color: hsl(240, 88%, 13%);
+}
 
 .green .tick-flip-panel {
     background-color: hsl(125, 60%, 34%);
@@ -16,9 +17,11 @@
 .white .tick-flip-panel {
     background-color: hsl(0, 0%, 100%);
 }
+
 .white .tick-flip-panel {
-    color: rgb(0, 0, 0) ; 
- }
+    color: rgb(0, 0, 0);
+}
+
 .red .tick-flip-panel {
-    background-color: hsl(0, 79%, 50%); 
- }
+    background-color: hsl(0, 79%, 50%);
+}
