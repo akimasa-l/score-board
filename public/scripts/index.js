@@ -37,7 +37,7 @@ function handleTickInit(tick) {
         }, 100);
 
         // a(tick);
-    }, 200);
+    }, 10);
 
 
 }
