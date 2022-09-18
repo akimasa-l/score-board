@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/flip.min.css">
+    <link rel="stylesheet" href="/styles/flip.morokoshi.css">
+    <link rel="stylesheet" href="/styles/colors.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="tick blue" data-value="100" data-did-init="handleTickInitBlue">
+            <!-- Hide visual content from screenreaders with `aria-hidden` -->
+            <div data-layout="horizontal center" data-repeat="true"
+                data-transform="arrive(9, .001) -> round -> pad('   ') -> split -> delay(rtl, 100, 150)">
+                <span data-view="flip"></span>
+            </div>
+        </div>
+    
+        <div class="tick yellow" data-value="100" data-did-init="handleTickInitYellow">
+            <!-- Hide visual content from screenreaders with `aria-hidden` -->
+            <div data-layout="horizontal center" data-repeat="true"
+                data-transform="arrive(9, .001) -> round -> pad('   ') -> split -> delay(rtl, 100, 150)">
+                <span data-view="flip"></span>
+            </div>
+        </div>
+        <div class="tick green" data-value="100" data-did-init="handleTickInitGreen">
+            <!-- Hide visual content from screenreaders with `aria-hidden` -->
+            <div data-layout="horizontal center" data-repeat="true"
+                data-transform="arrive(9, .001) -> round -> pad('   ') -> split -> delay(rtl, 100, 150)">
+                <span data-view="flip"></span>
+            </div>
+        </div>
+        <div class="tick white" data-value="100" data-did-init="handleTickInitWhite">
+            <!-- Hide visual content from screenreaders with `aria-hidden` -->
+            <div data-layout="horizontal center" data-repeat="true"
+                data-transform="arrive(9, .001) -> round -> pad('   ') -> split -> delay(rtl, 100, 150)">
+                <span data-view="flip"></span>
+            </div>
+        </div>
+        <div class="tick red" data-value="100" data-did-init="handleTickInitRed">
+            <!-- Hide visual content from screenreaders with `aria-hidden` -->
+            <div data-layout="horizontal center" data-repeat="true"
+                data-transform="arrive(9, .001) -> round -> pad('   ') -> split -> delay(rtl, 100, 150)">
+                <span data-view="flip"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts/flip.min.js"></script>
+    <script src="/scripts/index.js"></script>
+</body>
+
+</html>
