@@ -23,21 +23,30 @@ function handleTickInit(tick) {
             green: [0, 0, 0],
             white: [0, 0, 0],
             red: [0, 0, 0],
-           
+
         };
-setTimeout(function () {
-        tick.value = {
-            blue: [0,4,3],
-            yellow: [4,5,6],
-            green: [7,8,9],
-            white: [1,2,3],
-            red: [4,5,6],
-        };
-        
-    }, 100);
+        setTimeout(function () {
+            tick.value = {
+                blue: [1, 2, 3],
+                yellow: [4, 5, 6],
+                green: [7, 8, 9],
+                white: [1, 2, 3],
+                red: [4, 5, 6],
+            };
+
+        }, 100);
 
         // a(tick);
     }, 200);
-    
 
+
+}
+function ff(tick) {
+
+
+    var counter = Tick.count.down('2022-09-28T00:00:00+09:00');
+
+    counter.onupdate = function (value) {
+        tick.value = value;
+    };
 }
