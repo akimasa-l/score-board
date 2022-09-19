@@ -17,13 +17,13 @@ async function a(tick) {
 } */
 function handleTickInit(tick) {
     setTimeout(function () {
+
         tick.value = {
             blue: [0, 0, 0],
             yellow: [0, 0, 0],
             green: [0, 0, 0],
             white: [0, 0, 0],
             red: [0, 0, 0],
-
         };
         setTimeout(function () {
             tick.value = {
@@ -33,6 +33,15 @@ function handleTickInit(tick) {
                 white: [1, 2, 3],
                 red: [4, 5, 6],
             };
+            setTimeout(function () {
+                tick.value={
+                    "blue": ["?", "?", "?"],
+                    "yellow": ["?", "?", "?"],
+                    "green": ["?", "?", "?"],
+                    "white": ["?", "?", "?"],
+                    "red": ["?", "?", "?"]
+                };
+            }, 7000);
 
         }, 100);
 
