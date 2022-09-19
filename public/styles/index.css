@@ -1,31 +1,35 @@
-
 @keyframes gradient {
-    
-    to {
-      background-position: 0% 0%;
-    }
-    from {
-      background-position: 100% 100%;
-    }
-   
+
+  to {
+    background-position: 0% 0%;
   }
+
+  from {
+    background-position: 100% 100%;
+  }
+
+}
+
+
+
 .main {
-    max-width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    background-image: url(/images/background.svg);
-    /* background-repeat: repeat; */
-    /* background-size: 100vmax 100vmax; */
-    background-attachment: fixed;
-    background-position: center;
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url(/images/background.svg);
+  /* background-repeat: repeat; */
+  /* background-size: 100vmax 100vmax; */
+  background-attachment: fixed;
+  background-position: center;
   /*   background-position: 0 0;
     animation: gradient 20s linear infinite running; */
 }
-.title{
+
+.title {
   width: 100%;
   background-color: #000;
   color: #fff;

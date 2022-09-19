@@ -1,13 +1,16 @@
 /* flipの設定 */
+.tick {
+   white-space: nowrap;
+   font-family: arial, sans-serif;
+
+}
+
 .tick.score {
    font-size: min(5vmin, 3rem);
-   white-space: nowrap;
-   font-family: arial, sans-serif;
 }
-.tick.time{
+
+.tick.time {
    font-size: min(2.5vmin, 1.5rem);
-   white-space: nowrap;
-   font-family: arial, sans-serif;
 }
 
 .tick-flip,
