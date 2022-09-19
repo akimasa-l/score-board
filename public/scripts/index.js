@@ -33,7 +33,7 @@ function handleTickInit(tick) {
                 white: [1, 2, 3],
                 red: [4, 5, 6],
             };
-            setTimeout(function () {
+            /* setTimeout(function () {
                 tick.value={
                     "blue": ["?", "?", "?"],
                     "yellow": ["?", "?", "?"],
@@ -41,7 +41,7 @@ function handleTickInit(tick) {
                     "white": ["?", "?", "?"],
                     "red": ["?", "?", "?"]
                 };
-            }, 7000);
+            }, 7000); */
 
         }, 100);
 
