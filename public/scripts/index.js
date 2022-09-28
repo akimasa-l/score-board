@@ -53,7 +53,7 @@ function handleTickInit(tick) {
 function ff(tick) {
 
 
-    var counter = Tick.count.down('2022-09-28T09:00:00+09:00');
+    var counter = Tick.count.down('2022-09-29T16:00:00+09:00');
 
     counter.onupdate = function (value) {
         tick.value = value;
